@@ -18,7 +18,7 @@ String pet = JOptionPane.showInputDialog(" what type of pet would you want");
 					new String[] { "walk", "feed", "hug" }, null);
 
 			// 5. Use user input to call the appropriate method created in step 4.
-System.out.println(task);
+if(task==0)
 			// 6. If you determine the happiness level is large enough, tell the
 			//    user that he loves his pet and use break; to exit for loop.
 
